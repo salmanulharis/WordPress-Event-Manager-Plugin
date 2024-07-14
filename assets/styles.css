@@ -1,0 +1,30 @@
+.wp-event-manager-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wp-event-manager-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: background 0.3s ease;
+}
+
+.wp-event-manager-item:hover {
+    background: #f0f0f0;
+}
+
+.wp-event-manager-item h2 {
+    margin-top: 0;
+}
+
+.wp-event-manager-item p {
+    margin: 0 0 10px;
+}
